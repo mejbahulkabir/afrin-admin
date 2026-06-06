@@ -11,6 +11,8 @@ import { Testimonials } from "./pages/Testimonials";
 import { Blog } from "./pages/Blog";
 import { WhyUs } from "./pages/WhyUs";
 import { Stats } from "./pages/Stats";
+import { Banners } from "./pages/Banners";
+import { GalleryImages } from "./pages/GalleryImages";
 import { ContactSubmissions } from "./pages/ContactSubmissions";
 import { AdmissionSubmissions } from "./pages/AdmissionSubmissions";
 
@@ -35,6 +37,8 @@ export default function App() {
         <Route path="blog" element={<Blog />} />
         <Route path="why-us" element={<WhyUs />} />
         <Route path="stats" element={<Stats />} />
+        <Route path="banners" element={<Banners />} />
+        <Route path="gallery" element={<GalleryImages />} />
         <Route path="submissions/contact" element={<ContactSubmissions />} />
         <Route path="submissions/admission" element={<AdmissionSubmissions />} />
         <Route path="*" element={<Navigate to="/" replace />} />

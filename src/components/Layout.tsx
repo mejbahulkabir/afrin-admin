@@ -10,6 +10,8 @@ import {
   PenSquare,
   Sparkles,
   BarChart3,
+  Image as ImageIcon,
+  GalleryHorizontal,
   Mail,
   ClipboardList,
   LogOut,
@@ -18,6 +20,8 @@ import {
 const NAV = [
   { to: "/", label: "Dashboard", Icon: LayoutDashboard, end: true },
   { to: "/site", label: "Site Settings", Icon: Settings },
+  { to: "/banners", label: "Banners", Icon: ImageIcon },
+  { to: "/gallery", label: "Gallery Images", Icon: GalleryHorizontal },
   { to: "/courses", label: "Courses", Icon: BookOpen },
   { to: "/exams", label: "Defence Exams", Icon: ScrollText },
   { to: "/faculty", label: "Faculty", Icon: Users },
